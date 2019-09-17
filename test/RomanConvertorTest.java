@@ -1,3 +1,5 @@
+// DO NOT CHANGE THIS FILE!!!
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -102,7 +104,7 @@ class RomanConvertorTest {
     @Test
     void ToArabicTest_InvalidChars() {
         Assertions.assertThrows(NumberFormatException.class, () -> {
-            RomanConvertor.ToRoman(0);
+            RomanConvertor.ToArabic("XXBBIIOO");
         });
     }
 
